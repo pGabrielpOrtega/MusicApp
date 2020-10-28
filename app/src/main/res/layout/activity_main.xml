@@ -17,6 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925"
+        android:background="@null"
         app:srcCompat="@drawable/boton_back" />
 
     <ImageButton
@@ -29,6 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925"
+        android:background="@null"
         app:srcCompat="@drawable/boton_next" />
 
     <ImageButton
@@ -41,6 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925"
+        android:background="@null"
         app:srcCompat="@drawable/boton_play" />
 
     <TextView
@@ -78,15 +81,16 @@
         app:layout_constraintVertical_bias="0.617" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnIr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:text="Menu"
+        android:textColor="#000000"
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintVertical_bias="0.004" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
