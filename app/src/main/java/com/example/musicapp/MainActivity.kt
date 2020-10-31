@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_pantalla_2.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,12 +13,9 @@ class MainActivity : AppCompatActivity() {
         btnIr.setOnClickListener {
             val intent:Intent = Intent(this,pantalla_2::class.java)
             startActivity(intent)
-
         }
 
 
-
     }
-
 
 }
