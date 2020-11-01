@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">MusicApp</string>
+
+    <string name="txt_Nombre_de_cancion">Nombre de canciones</string>
+    <string name="txt_3_41">3:41</string>
+    <string name="txt_imagen_cancion">imagen_cancion</string>
+    <string name="txt_Canciones">Canciones</string>
+    <string name="txt_Artistas">Artistas</string>
+    <string name="txt_Albumes">Ambumes</string>
+    <string name="txt_Genero">Genero</string>
+    <string name="txt_Album1">Album1</string>
+    <string name="txt_Album2">Album2</string>
+    <string name="txt_Album3">Album3</string>
+    <string name="txt_Album4">Album4</string>
+    <string name="txt_Artista1">Artista1</string>
+    <string name="txt_Artista2">Artista2</string>
+    <string name="txt_Artista3">Artista3</string>
+    <string name="txt_Cancion1">Cancion1</string>
+    <string name="txt_Cancion2">Cancion2</string>
+    <string name="txt_Cancion3">Cancion3</string>
+    <string name="txt_Cancion4">Cancion4</string>
+
+
+
+
+
+
 </resources>

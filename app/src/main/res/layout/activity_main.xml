@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/boton_back" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/img_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
@@ -34,10 +34,10 @@
         app:srcCompat="@drawable/boton_next" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/img_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
+        android:layout_marginStart="188dp"
         android:background="@null"
         android:contentDescription="Play"
         android:visibility="visible"
@@ -48,13 +48,13 @@
         app:srcCompat="@drawable/boton_play" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:id="@+id/txt_Nombre_de_canciones"
+        android:layout_width="371dp"
+        android:layout_height="63dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:background="#FFFFFF"
-        android:text="Nombre de cancion"
+        android:text="@string/txt_Nombre_de_cancion"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,13 +65,13 @@
         app:layout_constraintVertical_bias="0.743" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txt_3_41"
         android:layout_width="114dp"
         android:layout_height="62dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:background="#FFFFFF"
-        android:text="3:41"
+        android:text="@string/txt_3_41"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,10 +95,11 @@
         app:layout_constraintVertical_bias="0.004" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imagen_cancion"
         android:layout_width="212dp"
         android:layout_height="209dp"
         android:layout_marginTop="130dp"
+        android:contentDescription="@string/txt_imagen_cancion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

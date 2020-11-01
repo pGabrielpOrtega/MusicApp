@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="200dp"
@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/boton_back" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/img_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="200dp"
@@ -34,7 +34,7 @@
         app:srcCompat="@drawable/boton_next" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/img_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@null"
@@ -47,7 +47,7 @@
         app:srcCompat="@drawable/boton_play" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txt_Nombre_de_canciones"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
@@ -61,10 +61,10 @@
         app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.706" />
+        app:layout_constraintVertical_bias="0.728" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txt_3_41"
         android:layout_width="114dp"
         android:layout_height="62dp"
         android:layout_marginStart="10dp"
@@ -78,7 +78,7 @@
         app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
+        app:layout_constraintVertical_bias="0.541" />
 
     <Button
         android:id="@+id/btnIr"
@@ -92,5 +92,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.008" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondo_album" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
